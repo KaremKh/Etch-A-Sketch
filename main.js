@@ -93,6 +93,7 @@ function changeGrid(){
     let gridNumber;
   
     gridNumber=prompt("Enter the number of cells per side: ");
+    if (gridNumber==null) return;
     while (gridNumber<2 || gridNumber >100){
       alert('Maximum is 100');
       gridNumber=prompt("Enter the number of cells per side: ");
