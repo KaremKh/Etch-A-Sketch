@@ -39,8 +39,8 @@ body{
 
 .container {
     display:grid;
-    width: 80%;
-    height: 80%;
+    width: 65%;
+    height: 65%;
     border: 5px solid black;
     border-radius: 10px;
 
@@ -49,7 +49,7 @@ body{
 .buttons {
 
     background-color: rgb(86, 94, 94);
-    width:80%;
+    width:65%;
     align-items: center;
     justify-content: center;
     border: 5px solid black;
@@ -71,21 +71,21 @@ body{
 }
 
 button {
-    margin: 10px;
+    margin: 5px;
     border: 3px solid rgb(4, 38, 42);
     border-radius: 5px;
-    padding: 20px;
-    font-size: 17px;
+    padding: 15px 10px 15px 10px;
+    font-size: 16px;
     font-weight: bolder;
 }
 
 input {
     position:relative;
-    right:0px;
-    top:21px;
+    right:-10px;
+    top:15px;
 
-    width: 66px;
-    height: 66px;
+    width: 52px;
+    height: 52px;
     
 }
 
